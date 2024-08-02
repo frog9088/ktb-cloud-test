@@ -5,6 +5,7 @@ const app = express();
 
 app.get('/', (req, res) => {
   res.send('Hello, KTB!');
+  res.send('This is Kevin in AI course');
 });
 
 app.get('/ping', (req, res) => {
